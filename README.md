@@ -62,9 +62,9 @@ cd IELTS-Practice-Platform
 
 
 
-\- Mở MySQL Workbench.
+- Mở MySQL Workbench.
 
-\- Chạy file `ielts\_platform.sql` để tạo database.
+- Chạy file `ielts\_platform.sql` để tạo database.
 
 
 
@@ -80,15 +80,11 @@ Tạo file `backend/.env`:
 
 PORT=5000
 
-DB\_HOST=localhost
-
-DB\_PORT=3306
-
-DB\_NAME=ielts\_platform
-
-DB\_USER=root
-
-DB\_PASSWORD=your\_mysql\_password
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_pass
+DB_NAME=ielts_platform
+DB_PORT=3306
 
 ```
 
@@ -138,7 +134,7 @@ Frontend: http://localhost:5173
 
 
 
-\Repository
+Repository
 
 
 
