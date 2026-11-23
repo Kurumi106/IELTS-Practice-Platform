@@ -18,7 +18,7 @@ IELTS-Practice-Platform/
 
 ├── frontend/      # Frontend React, Vite
 
-├── ielts\_platform.sql  # Database MySQL
+├── ielts_platform.sql  # Database MySQL
 
 ├── .gitignore
 
@@ -64,7 +64,7 @@ cd IELTS-Practice-Platform
 
 - Mở MySQL Workbench.
 
-- Chạy file `ielts\_platform.sql` để tạo database.
+- Chạy file `ielts_platform.sql` để tạo database.
 
 
 
