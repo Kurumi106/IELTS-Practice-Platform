@@ -1,12 +1,12 @@
-\IELTS Practice Platform
+# IELTS Practice Platform
 
 
 
-Dự án xây dựng website luyện thi IELTS trực tuyến, hỗ trợ người học thực hành và cải thiện 4 kỹ năng: Listening, Reading, Writing và Speaking.
+# Dự án xây dựng website luyện thi IELTS trực tuyến, hỗ trợ người học thực hành và cải thiện 4 kỹ năng: Listening, Reading, Writing và Speaking.
 
 
 
-\Cấu trúc thư mục
+## Cấu trúc thư mục
 
 
 
@@ -28,23 +28,23 @@ IELTS-Practice-Platform/
 
 
 
-\Công nghệ sử dụng
+## Công nghệ sử dụng
 
 
 
-\- Frontend: ReactJS, Vite, Axios, React Router DOM
+- Frontend: ReactJS, Vite, Axios, React Router DOM
 
-\- Backend: Node.js, Express.js
+- Backend: Node.js, Express.js
 
-\- Database: MySQL 8.0
-
-
-
-\Cài đặt và chạy dự án
+- Database: MySQL 8.0
 
 
 
-\1. Clone repository
+## Cài đặt và chạy dự án
+
+
+
+**1. Clone repository**
 
 
 
@@ -58,7 +58,7 @@ cd IELTS-Practice-Platform
 
 
 
-\2. Cài đặt Database
+**2. Cài đặt Database**
 
 
 
@@ -68,7 +68,7 @@ cd IELTS-Practice-Platform
 
 
 
-\3. Cấu hình Backend
+**3. Cấu hình Backend**
 
 
 
@@ -114,7 +114,7 @@ Backend: http://localhost:5000
 
 
 
-\4. Cài đặt Frontend
+**4. Cài đặt Frontend**
 
 
 
