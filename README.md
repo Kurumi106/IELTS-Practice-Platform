@@ -1,4 +1,4 @@
-\# IELTS Practice Platform
+\IELTS Practice Platform
 
 
 
@@ -6,7 +6,7 @@ Dự án xây dựng website luyện thi IELTS trực tuyến, hỗ trợ ngư�
 
 
 
-\## Cấu trúc thư mục
+\Cấu trúc thư mục
 
 
 
@@ -28,7 +28,7 @@ IELTS-Practice-Platform/
 
 
 
-\## Công nghệ sử dụng
+\Công nghệ sử dụng
 
 
 
@@ -40,11 +40,11 @@ IELTS-Practice-Platform/
 
 
 
-\## Cài đặt và chạy dự án
+\Cài đặt và chạy dự án
 
 
 
-\### 1. Clone repository
+\1. Clone repository
 
 
 
@@ -58,7 +58,7 @@ cd IELTS-Practice-Platform
 
 
 
-\### 2. Cài đặt Database
+\2. Cài đặt Database
 
 
 
@@ -68,7 +68,7 @@ cd IELTS-Practice-Platform
 
 
 
-\### 3. Cấu hình Backend
+\3. Cấu hình Backend
 
 
 
@@ -114,7 +114,7 @@ Backend: http://localhost:5000
 
 
 
-\### 4. Cài đặt Frontend
+\4. Cài đặt Frontend
 
 
 
@@ -138,7 +138,7 @@ Frontend: http://localhost:5173
 
 
 
-\## Repository
+\Repository
 
 
 
