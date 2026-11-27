@@ -1,8 +1,11 @@
+
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 
-const db = require("./config/database");
+const healthRoutes = require("./routes/healthRoutes");
+const skillsRoutes = require("./routes/skillsRoutes");
+const testRoutes = require("./routes/testRoutes");
 
 const app = express();
 
@@ -20,28 +23,14 @@ app.get("/", (req, res) => {
     });
 });
 
-// API kiểm tra kết nối MySQL
-app.get("/api/health/db", async (req, res) => {
-    try {
-        const [rows] = await db.query("SELECT 1 AS result");
+// Đăng ký Health Routes
+app.use("/api/health", healthRoutes);
+app.use("/api/skills", skillsRoutes);
+app.use("/api/tests", testRoutes);
 
-        res.json({
-            status: "success",
-            message: "MySQL connected successfully!",
-            database: rows[0].result
-        });
-    } catch (error) {
-        console.error("Database error:", error.message);
-
-        res.status(500).json({
-            status: "error",
-            message: "Cannot connect to MySQL"
-        });
-    }
-});
-
+// Khởi động Server
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
-})
+});
