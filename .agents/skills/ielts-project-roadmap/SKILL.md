@@ -1,10 +1,4 @@
----
-name: ielts-project-roadmap
-description: >-
-  Implementation roadmap and phase-by-phase runbook for the IELTS Practice Platform project.
-  Use this skill when the user asks to execute a project phase (e.g. "làm giai đoạn 1",
-  "tiếp tục dự án"), check project progress, or plan new backend/frontend features aligned
-  with the MySQL schema and existing codebase conventions.
+
 ---
 
 # IELTS Practice Platform — Implementation Roadmap
