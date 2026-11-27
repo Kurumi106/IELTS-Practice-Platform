@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="440" viewBox="0 0 780 440" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <rect width="780" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="390" y="34" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">
+    The Process of Recycling Used Glass Bottles
+  </text>
+  <text x="390" y="54" text-anchor="middle" font-size="12" fill="#64748b">
+    Six main stages from collection to supermarket delivery
+  </text>
+
+  <!-- Stage 1 -->
+  <rect x="40" y="90" width="200" height="110" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="140" y="114" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d4ed8">STAGE 1: COLLECTION</text>
+  <text x="140" y="138" text-anchor="middle" font-size="12" fill="#334155">Used glass bottles placed</text>
+  <text x="140" y="156" text-anchor="middle" font-size="12" fill="#334155">in recycling bins and</text>
+  <text x="140" y="174" text-anchor="middle" font-size="12" fill="#334155">collected by trucks</text>
+
+  <!-- Arrow 1 -> 2 -->
+  <line x1="242" y1="145" x2="286" y2="145" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Stage 2 -->
+  <rect x="290" y="90" width="200" height="110" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+  <text x="390" y="114" text-anchor="middle" font-size="12" font-weight="bold" fill="#047857">STAGE 2: WASHING &amp; SORTING</text>
+  <text x="390" y="138" text-anchor="middle" font-size="12" fill="#334155">High-pressure water wash</text>
+  <text x="390" y="156" text-anchor="middle" font-size="12" fill="#334155">and colour sorting</text>
+  <text x="390" y="174" text-anchor="middle" font-size="12" fill="#334155">(clear, green, brown)</text>
+
+  <!-- Arrow 2 -> 3 -->
+  <line x1="492" y1="145" x2="536" y2="145" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Stage 3 -->
+  <rect x="540" y="90" width="200" height="110" rx="10" fill="#fefce8" stroke="#eab308" stroke-width="2"/>
+  <text x="640" y="114" text-anchor="middle" font-size="12" font-weight="bold" fill="#a16207">STAGE 3: CRUSHING</text>
+  <text x="640" y="138" text-anchor="middle" font-size="12" fill="#334155">Sorted bottles crushed</text>
+  <text x="640" y="156" text-anchor="middle" font-size="12" fill="#334155">into small pieces called</text>
+  <text x="640" y="174" text-anchor="middle" font-size="12" fill="#334155">cullet at plant</text>
+
+  <!-- Arrow 3 -> 4 (down) -->
+  <line x1="640" y1="202" x2="640" y2="256" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Stage 4 (right bottom) -->
+  <rect x="540" y="260" width="200" height="110" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+  <text x="640" y="284" text-anchor="middle" font-size="12" font-weight="bold" fill="#c2410c">STAGE 4: MELTING</text>
+  <text x="640" y="308" text-anchor="middle" font-size="12" fill="#334155">Cullet melted in furnace</text>
+  <text x="640" y="326" text-anchor="middle" font-size="12" fill="#334155">at 1,500°C with sand</text>
+  <text x="640" y="344" text-anchor="middle" font-size="12" fill="#334155">and limestone</text>
+
+  <!-- Arrow 4 -> 5 (left) -->
+  <line x1="538" y1="315" x2="494" y2="315" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Stage 5 (middle bottom) -->
+  <rect x="290" y="260" width="200" height="110" rx="10" fill="#faf5ff" stroke="#a855f7" stroke-width="2"/>
+  <text x="390" y="284" text-anchor="middle" font-size="12" font-weight="bold" fill="#7e22ce">STAGE 5: MOULDING</text>
+  <text x="390" y="308" text-anchor="middle" font-size="12" fill="#334155">Molten glass poured into</text>
+  <text x="390" y="326" text-anchor="middle" font-size="12" fill="#334155">moulds to form new</text>
+  <text x="390" y="344" text-anchor="middle" font-size="12" fill="#334155">jars and bottles</text>
+
+  <!-- Arrow 5 -> 6 (left) -->
+  <line x1="288" y1="315" x2="244" y2="315" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Stage 6 (left bottom) -->
+  <rect x="40" y="260" width="200" height="110" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="140" y="284" text-anchor="middle" font-size="12" font-weight="bold" fill="#15803d">STAGE 6: REFILL &amp; SALE</text>
+  <text x="140" y="308" text-anchor="middle" font-size="12" fill="#334155">New bottles filled with</text>
+  <text x="140" y="326" text-anchor="middle" font-size="12" fill="#334155">beverages and delivered</text>
+  <text x="140" y="344" text-anchor="middle" font-size="12" fill="#334155">to supermarkets</text>
+
+  <!-- Cycle arrow back up from Stage 6 to Stage 1 -->
+  <line x1="140" y1="258" x2="140" y2="204" stroke="#64748b" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+  <text x="140" y="405" text-anchor="middle" font-size="11" fill="#64748b">
+    After customer use, bottles re-enter the recycling loop
+  </text>
+</svg>

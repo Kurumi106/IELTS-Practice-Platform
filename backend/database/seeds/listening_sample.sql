@@ -1,7 +1,7 @@
 START TRANSACTION;
 
 -- 1. Tạo Passage
--- Chưa có file audio nên media_url để NULL.
+-- Audio mẫu được lưu tại backend/uploads/listening/hotel-booking-part1.wav.
 -- Transcript dùng cho quản trị và phát triển nội dung.
 INSERT INTO passages (
     section_id,
@@ -17,7 +17,7 @@ SELECT
     'Hotel Booking - Part 1',
     'audio',
     NULL,
-    NULL,
+    '/uploads/listening/hotel-booking-part1.wav',
     'Receptionist: Good morning, Green Hotel. How can I help you?
 Customer: Hello. I would like to book a room for two nights.
 Receptionist: Certainly. May I have your full name?

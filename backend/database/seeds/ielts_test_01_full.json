@@ -1,0 +1,321 @@
+{
+  "title": "IELTS Test 01",
+  "description": "Full IELTS practice test covering Listening, Reading, Writing, and Speaking",
+  "test_type": "full",
+  "duration_minutes": 165,
+  "status": "published",
+  "sections": [
+    {
+      "skill_code": "listening",
+      "section_order": 1,
+      "title": "Listening Test",
+      "instructions": "Listen to the recordings and answer the questions.",
+      "duration_seconds": 1800,
+      "passages": [
+        {
+          "title": "Hotel Booking - Part 1",
+          "content_type": "audio",
+          "media_url": "/uploads/listening/hotel-booking-part1.wav",
+          "transcript": "Receptionist: Good morning, Green Hotel. How can I help you?\nCustomer: Hello. I would like to book a room for two nights.\nReceptionist: Certainly. May I have your full name?\nCustomer: My name is David Wilson.\nReceptionist: Could you spell your surname, please?\nCustomer: W-I-L-S-O-N.\nReceptionist: Thank you. What date would you like to check in?\nCustomer: The 15th of August.\nReceptionist: And how many guests?\nCustomer: Two adults.\nReceptionist: Finally, could I have your telephone number?\nCustomer: Yes, it is 0794561238.\nReceptionist: Thank you, Mr Wilson. Your booking request has been recorded.",
+          "duration_seconds": 150
+        },
+        {
+          "title": "Campus Library Orientation - Part 2",
+          "content_type": "audio",
+          "media_url": "/uploads/listening/campus-library-tour-part2.wav",
+          "transcript": "Guide: Welcome everyone to the City University Main Library orientation. Today I will briefly introduce our opening hours and new facilities. During term time, the ground floor study zone is open 24 hours a day, while the rare books archive on the third floor closes at 6 PM. To borrow laptops or quiet study pods, please remember to bring your student ID card rather than a paper library pass. Finally, our free academic writing workshops take place every Wednesday afternoon in Room 204.",
+          "duration_seconds": 90
+        }
+      ],
+      "question_groups": [
+        {
+          "passage_title": "Hotel Booking - Part 1",
+          "title": "Part 1 - Hotel Booking Form",
+          "instructions": "Listen to the conversation and complete the booking form. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "group_order": 1,
+          "questions": [
+            {
+              "question_type": "form_completion",
+              "question_number": 1,
+              "prompt": "Guest surname: ______",
+              "answers": ["Wilson"]
+            },
+            {
+              "question_type": "form_completion",
+              "question_number": 2,
+              "prompt": "Check-in date: ______",
+              "answers": [
+                { "answer_text": "15th August", "is_primary": true },
+                { "answer_text": "15 August", "is_primary": false }
+              ]
+            },
+            {
+              "question_type": "form_completion",
+              "question_number": 3,
+              "prompt": "Number of guests: ______",
+              "answers": [
+                { "answer_text": "2", "is_primary": true },
+                { "answer_text": "two", "is_primary": false }
+              ]
+            },
+            {
+              "question_type": "form_completion",
+              "question_number": 4,
+              "prompt": "Guest first name: ______",
+              "answers": ["David"]
+            },
+            {
+              "question_type": "form_completion",
+              "question_number": 5,
+              "prompt": "Telephone number: ______",
+              "answers": ["0794561238"]
+            }
+          ]
+        },
+        {
+          "passage_title": "Campus Library Orientation - Part 2",
+          "title": "Part 2 - Campus Library Facilities",
+          "instructions": "Listen to the library orientation talk and choose the correct letter, A, B, or C.",
+          "group_order": 2,
+          "questions": [
+            {
+              "question_type": "multiple_choice",
+              "question_number": 6,
+              "prompt": "Which area of the library remains open 24 hours a day during term time?",
+              "options": [
+                { "option_key": "A", "option_text": "The rare books archive on the third floor" },
+                { "option_key": "B", "option_text": "The ground floor study zone" },
+                { "option_key": "C", "option_text": "Room 204 workshop hall" }
+              ],
+              "answers": ["B"]
+            },
+            {
+              "question_type": "multiple_choice",
+              "question_number": 7,
+              "prompt": "What must students bring to borrow a laptop or quiet study pod?",
+              "options": [
+                { "option_key": "A", "option_text": "A student ID card" },
+                { "option_key": "B", "option_text": "A paper library pass" },
+                { "option_key": "C", "option_text": "A deposit receipt" }
+              ],
+              "answers": ["A"]
+            },
+            {
+              "question_type": "multiple_choice",
+              "question_number": 8,
+              "prompt": "When are the free academic writing workshops held?",
+              "options": [
+                { "option_key": "A", "option_text": "Monday mornings" },
+                { "option_key": "B", "option_text": "Wednesday afternoons" },
+                { "option_key": "C", "option_text": "Friday evenings" }
+              ],
+              "answers": ["B"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_code": "reading",
+      "section_order": 2,
+      "title": "Reading Test",
+      "instructions": "Read the passages and answer the questions.",
+      "duration_seconds": 3600,
+      "passages": [
+        {
+          "title": "Passage 1 - The Evolution of Urban Vertical Farming",
+          "content_type": "text",
+          "content_text": "As global urban populations continue to expand, traditional horizontal agriculture faces mounting pressure from limited arable land, unpredictable weather, and long-distance supply chains. Vertical farming—growing crops in vertically stacked layers indoors—has emerged over the past two decades as a promising complement to conventional farming.\n\nUnlike open-field agriculture, vertical farms rely on controlled-environment agriculture (CEA) systems. Temperature, humidity, carbon dioxide levels, and light spectrum are precisely regulated using LED arrays and automated sensors. Most facilities cultivate fast-growing leafy greens and herbs using hydroponic or aeroponic techniques, which deliver nutrient-rich water directly to plant roots without soil. According to agricultural researchers, hydroponic indoor farms can reduce water consumption by up to 90 percent compared with traditional irrigated fields because unused moisture is recaptured and recirculated.\n\nDespite these environmental advantages, vertical farming is not a universal replacement for conventional crops. Staple grains such as wheat, rice, and maize require vast amounts of energy from artificial lighting to reach maturity, making indoor cultivation economically unviable at current electricity prices. Furthermore, high upfront capital costs for automation and climate control mean that many startups struggle to achieve profitability during their first five years of operation.\n\nTo address energy expenses, engineers in northern Europe and East Asia have begun integrating vertical farms with renewable microgrids and waste-heat recovery systems from nearby data centres. While vertical farming currently supplies only a small fraction of total urban food demand, analysts predict that falling renewable energy costs and improved LED efficiency will gradually broaden the range of crops suited to indoor production."
+        }
+      ],
+      "question_groups": [
+        {
+          "passage_title": "Passage 1 - The Evolution of Urban Vertical Farming",
+          "title": "Questions 1–3: True / False / Not Given",
+          "instructions": "Do the following statements agree with the information given in Reading Passage 1? Choose TRUE, FALSE, or NOT GIVEN.",
+          "group_order": 1,
+          "questions": [
+            {
+              "question_type": "true_false_not_given",
+              "question_number": 1,
+              "prompt": "Hydroponic indoor farms require significantly less water than traditional irrigated farming.",
+              "options": [
+                { "option_key": "TRUE", "option_text": "TRUE" },
+                { "option_key": "FALSE", "option_text": "FALSE" },
+                { "option_key": "NOT GIVEN", "option_text": "NOT GIVEN" }
+              ],
+              "answers": ["TRUE"]
+            },
+            {
+              "question_type": "true_false_not_given",
+              "question_number": 2,
+              "prompt": "Wheat and rice are currently profitable to grow inside commercial vertical farms.",
+              "options": [
+                { "option_key": "TRUE", "option_text": "TRUE" },
+                { "option_key": "FALSE", "option_text": "FALSE" },
+                { "option_key": "NOT GIVEN", "option_text": "NOT GIVEN" }
+              ],
+              "answers": ["FALSE"]
+            },
+            {
+              "question_type": "true_false_not_given",
+              "question_number": 3,
+              "prompt": "Vertical farming already provides more than half of all vegetables consumed in European cities.",
+              "options": [
+                { "option_key": "TRUE", "option_text": "TRUE" },
+                { "option_key": "FALSE", "option_text": "FALSE" },
+                { "option_key": "NOT GIVEN", "option_text": "NOT GIVEN" }
+              ],
+              "answers": ["FALSE"]
+            }
+          ]
+        },
+        {
+          "passage_title": "Passage 1 - The Evolution of Urban Vertical Farming",
+          "title": "Questions 4–6: Summary Completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "group_order": 2,
+          "questions": [
+            {
+              "question_type": "summary_completion",
+              "question_number": 4,
+              "prompt": "Vertical farms use hydroponic or aeroponic methods to supply nutrients directly to plant roots without using ______.",
+              "answers": ["soil"]
+            },
+            {
+              "question_type": "summary_completion",
+              "question_number": 5,
+              "prompt": "High initial costs for climate control and ______ often delay profitability for new companies.",
+              "answers": ["automation"]
+            },
+            {
+              "question_type": "summary_completion",
+              "question_number": 6,
+              "prompt": "Some modern facilities lower energy expenses by capturing waste heat from nearby ______ centres.",
+              "answers": ["data"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_code": "writing",
+      "section_order": 3,
+      "title": "Writing Test",
+      "instructions": "Complete Writing Task 1 and Task 2.",
+      "duration_seconds": 3600,
+      "passages": [
+        {
+          "title": "Writing Task 1 - Household Internet Access Chart",
+          "content_type": "image",
+          "media_url": "/uploads/writing/task1-internet-usage-chart.svg",
+          "content_text": "The bar chart illustrates the percentage of urban households with home internet access across three age groups in 2015, 2020, and 2025."
+        },
+        {
+          "title": "Writing Task 2 - Remote Work and Urban Development",
+          "content_type": "text",
+          "content_text": "In many countries, more employees are choosing to work remotely from home rather than commuting to city-centre offices."
+        }
+      ],
+      "question_groups": [
+        {
+          "passage_title": "Writing Task 1 - Household Internet Access Chart",
+          "title": "Task 1",
+          "instructions": "You should spend about 20 minutes on this task. Write at least 150 words.",
+          "group_order": 1,
+          "questions": [
+            {
+              "question_type": "task1_general",
+              "question_number": 1,
+              "prompt": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+              "max_score": 9.0,
+              "extra_data": { "min_words": 150, "recommended_minutes": 20 }
+            }
+          ]
+        },
+        {
+          "passage_title": "Writing Task 2 - Remote Work and Urban Development",
+          "title": "Task 2",
+          "instructions": "You should spend about 40 minutes on this task. Write at least 250 words.",
+          "group_order": 2,
+          "questions": [
+            {
+              "question_type": "task2_essay",
+              "question_number": 2,
+              "prompt": "Do the advantages of widespread remote working outweigh the disadvantages for cities and employees? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+              "max_score": 9.0,
+              "extra_data": { "min_words": 250, "recommended_minutes": 40 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill_code": "speaking",
+      "section_order": 4,
+      "title": "Speaking Test",
+      "instructions": "Complete Speaking Part 1, Part 2 and Part 3.",
+      "duration_seconds": 900,
+      "passages": [
+        {
+          "title": "Speaking Part 2 Cue Card - Memorable Skill",
+          "content_type": "text",
+          "content_text": "Describe a practical skill you learned recently that you found useful.\nYou should say:\n- what the skill is\n- how and where you learned it\n- why you decided to learn it\nand explain how this skill has helped you in your daily life."
+        }
+      ],
+      "question_groups": [
+        {
+          "title": "Part 1 - Daily Routine & Technology",
+          "group_order": 1,
+          "questions": [
+            {
+              "question_type": "part1",
+              "question_number": 1,
+              "prompt": "Do you prefer studying or working in the morning or in the evening? Why?",
+              "max_score": 9.0
+            },
+            {
+              "question_type": "part1",
+              "question_number": 2,
+              "prompt": "How often do you use apps or online tools to organise your schedule?",
+              "max_score": 9.0
+            }
+          ]
+        },
+        {
+          "passage_title": "Speaking Part 2 Cue Card - Memorable Skill",
+          "title": "Part 2 - Individual Long Turn",
+          "instructions": "You have 1 minute to prepare notes and should speak for 1-2 minutes.",
+          "group_order": 2,
+          "questions": [
+            {
+              "question_type": "part2",
+              "question_number": 3,
+              "prompt": "Speak about the practical skill described on the cue card.",
+              "max_score": 9.0,
+              "extra_data": { "prep_seconds": 60, "speak_seconds": 120 }
+            }
+          ]
+        },
+        {
+          "title": "Part 3 - Learning & Lifelong Skills",
+          "group_order": 3,
+          "questions": [
+            {
+              "question_type": "part3",
+              "question_number": 4,
+              "prompt": "Why do you think some adults find it harder to learn new practical skills than younger people?",
+              "max_score": 9.0
+            },
+            {
+              "question_type": "part3",
+              "question_number": 5,
+              "prompt": "Should schools focus more on vocational skills alongside academic subjects? Why or why not?",
+              "max_score": 9.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

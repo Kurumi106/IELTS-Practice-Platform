@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="460" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="380" y="34" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">
+    Percentage of Households with Home Internet Access (2015–2025)
+  </text>
+  <text x="380" y="54" text-anchor="middle" font-size="12" fill="#64748b">
+    Comparison across three age groups in Urban Areas (%)
+  </text>
+
+  <!-- Gridlines and Y axis labels -->
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="90" y1="90" x2="690" y2="90"/>
+    <line x1="90" y1="150" x2="690" y2="150"/>
+    <line x1="90" y1="210" x2="690" y2="210"/>
+    <line x1="90" y1="270" x2="690" y2="270"/>
+    <line x1="90" y1="330" x2="690" y2="330"/>
+    <line x1="90" y1="390" x2="690" y2="390" stroke="#94a3b8"/>
+  </g>
+  <g font-size="12" fill="#475569" text-anchor="end">
+    <text x="80" y="94">100%</text>
+    <text x="80" y="154">80%</text>
+    <text x="80" y="214">60%</text>
+    <text x="80" y="274">40%</text>
+    <text x="80" y="334">20%</text>
+    <text x="80" y="394">0%</text>
+  </g>
+
+  <!-- X axis labels: 2015 (190), 2020 (390), 2025 (590) -->
+  <g font-size="13" font-weight="bold" fill="#334155" text-anchor="middle">
+    <text x="190" y="415">2015</text>
+    <text x="390" y="415">2020</text>
+    <text x="590" y="415">2025</text>
+  </g>
+
+  <!-- Bars: 100% = 300px height (y=390 down to y=90, 3px per %) -->
+  <!-- 2015: Ages 18-34: 72% (216px, y=174), Ages 35-54: 58% (174px, y=216), Ages 55+: 28% (84px, y=306) -->
+  <rect x="130" y="174" width="36" height="216" fill="#2563eb"/>
+  <text x="148" y="168" text-anchor="middle" font-size="11" fill="#1e40af">72%</text>
+  <rect x="172" y="216" width="36" height="174" fill="#16a34a"/>
+  <text x="190" y="210" text-anchor="middle" font-size="11" fill="#166534">58%</text>
+  <rect x="214" y="306" width="36" height="84" fill="#ea580c"/>
+  <text x="232" y="300" text-anchor="middle" font-size="11" fill="#9a3412">28%</text>
+
+  <!-- 2020: Ages 18-34: 86% (258px, y=132), Ages 35-54: 76% (228px, y=162), Ages 55+: 49% (147px, y=243) -->
+  <rect x="330" y="132" width="36" height="258" fill="#2563eb"/>
+  <text x="348" y="126" text-anchor="middle" font-size="11" fill="#1e40af">86%</text>
+  <rect x="372" y="162" width="36" height="228" fill="#16a34a"/>
+  <text x="390" y="156" text-anchor="middle" font-size="11" fill="#166534">76%</text>
+  <rect x="414" y="243" width="36" height="147" fill="#ea580c"/>
+  <text x="432" y="237" text-anchor="middle" font-size="11" fill="#9a3412">49%</text>
+
+  <!-- 2025: Ages 18-34: 95% (285px, y=105), Ages 35-54: 88% (264px, y=126), Ages 55+: 69% (207px, y=183) -->
+  <rect x="530" y="105" width="36" height="285" fill="#2563eb"/>
+  <text x="548" y="99" text-anchor="middle" font-size="11" fill="#1e40af">95%</text>
+  <rect x="572" y="126" width="36" height="264" fill="#16a34a"/>
+  <text x="590" y="120" text-anchor="middle" font-size="11" fill="#166534">88%</text>
+  <rect x="614" y="183" width="36" height="207" fill="#ea580c"/>
+  <text x="632" y="177" text-anchor="middle" font-size="11" fill="#9a3412">69%</text>
+
+  <!-- Legend -->
+  <g font-size="12" fill="#334155">
+    <rect x="210" y="434" width="14" height="14" fill="#2563eb"/>
+    <text x="230" y="445">Ages 18–34</text>
+    <rect x="335" y="434" width="14" height="14" fill="#16a34a"/>
+    <text x="355" y="445">Ages 35–54</text>
+    <rect x="460" y="434" width="14" height="14" fill="#ea580c"/>
+    <text x="480" y="445">Ages 55+</text>
+  </g>
+</svg>
